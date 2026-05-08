@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio UI</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- NAVIGATION -->
+    <nav>
+      <h1>THEA</h1>
+
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      
+      </ul>
+
+      <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Contact</button>
+    </nav>
+
+    <!-- HOME -->
+    <div class="content" id="home">
+      <div class="left">
+        <img src="assets/pictures/FB_IMG_1778203739625.jpg" alt="">
+      </div>
+      <div class="right">
+        <h3>STUDENT</h3>
+        <h1>WEB DEVELOPER</h1>
+        <p>I'm a new beginner of web developer.</p>
+        <p>Passionate about innovation and building beautiful interfaces for the future.</p>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <h2>About</h2>
+      <p>Hi! I'm Thea, a student and aspiring web developer. I love learning new technologies and creating beautiful things for the web.</p>
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume">
+      <h2>Resume</h2>
+      <p>Currently studying web development and building projects to grow my skills.</p>
+      <p><strong>Skills:</strong> HTML, CSS, JavaScript (learning)</p>
+      <p><strong>Education:</strong> Currently enrolled</p>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <div class="placeholder">Project 1</div>
+        <div class="placeholder">Project 2</div>
+        <div class="placeholder">Project 3</div>
+      </div>
+
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Want to get in touch? Send me a message!</p>
+      <div class="contact-form">
+        <input type="text" placeholder="Your name">
+        <input type="email" placeholder="Your email">
+        <textarea placeholder="Your message"></textarea>
+        <button>Send Message</button>
+      </div>
+    </section>
+
+  </div>
+
+</body>
+</html>
