@@ -1,2 +1,0 @@
-# thea
-portfolio
